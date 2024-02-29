@@ -320,6 +320,10 @@ git config --global merge.ff true
 
 # Запрет слияния методом `fast-forward` для ветки `main`
 git config branch.main.mergeoptions '--no-ff'
+
+# Включить параметры –extended-regexp и -n команды grep.
+git config --global grep.extendRegexp true
+git config --global grep.lineNumber true
 ```
 
 ### Настройка программы для решения конфликтов
