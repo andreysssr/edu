@@ -307,9 +307,11 @@ git config core.ignorecase true
 
 # Установка глобального файла атрибутов .gitattributes
 git config --global core.attributesFile ~/.gitattributes
+git config --global core.attributesFile "C:\Users\<USERNAME>\.gitattributes"
 
 # Указание глобального файла .gitignore
 git config --global core.excludesFile ~/.gitignore
+git config --global core.excludesFile "C:\Users\<USERNAME>\.gitignore"
 
 # Запретить слияния методом `fast-forward`
 git config --global merge.ff false
@@ -340,13 +342,13 @@ git config --global mergetool.p4merge.path "C:\Program Files\p4merge\p4merge.exe
 
 ```bash
 git config --global core.excludesFile ~/.gitignore
-git config --global core.excludesFile "C:\Users\<USERNAME>\.gitconfig"
+git config --global core.excludesFile "C:\Users\<USERNAME>\.gitignore"
 ```
 
 ### Установка `.gitattributes` глобального файла атрибутов для всех проектов
 ```bash
 git config --global core.attributesFile ~/.gitattributes
-git config --global core.attributesFile "C:\Users\<USERNAME>\.gitconfig"
+git config --global core.attributesFile "C:\Users\<USERNAME>\.gitattributes"
 ```
 
 ### Создание псевдонимов для git команд
