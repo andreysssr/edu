@@ -77,6 +77,29 @@ git config --remove-section user
 # Включить параметры –extended-regexp и -n команды grep.
 git config --global grep.extendRegexp true
 git config --global grep.lineNumber true     # включает номера строк в файле - где найдена строка
+
+# Установить файл `.gitignore` для всех проектов
+git config --global core.excludesFile ~/.gitignore
+git config --global core.excludesFile "C:\Users\<USERNAME>\.gitignore"
+
+# Установка `.gitattributes` глобального файла атрибутов для всех проектов
+git config --global core.attributesFile ~/.gitattributes
+git config --global core.attributesFile "C:\Users\<USERNAME>\.gitattributes"
+
+# Просмотр выбранной конфигурации
+git config --list --local   # local  (cat .git/config)
+git config --list --global  # global (cat ~/.gitconfig)
+git config --list --system  # system (cat /etc/gitconfig)
+
+# Вывести все настройки
+git config --list
+
+# Вывести настройки и файлы где они указаны
+git config --list --show-origin
+
+# Открыть в редакторе глобальный конфиг файл
+git config --global --edit
+git config --global -e
 ```
 
 Устанавливаем редактор по умолчанию
