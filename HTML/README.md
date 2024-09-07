@@ -1680,13 +1680,16 @@ form атрибут
 - Валидатор разметки от W3C
 
 Сервисы проверки валидности кода
-- Проверка актуальности можно сделать на сайте `https://caniuse.com`
-- Проверка корректности вложенных тегов `https://caninclude.glitch.me`
-- Валидатор разметки `https://validator.w3.org`
+- Проверка актуальности тега можно сделать на сайте - https://caniuse.com
+- Проверка корректности вложенных тегов - https://caninclude.glitch.me
+- Валидатор разметки - https://validator.w3.org
 
 ---
 <a name="resources"><h2> </h2></a>
 ## Используемые ресурсы
+- https://caniuse.com - Проверка актуальности тега
+- https://caninclude.glitch.me - Проверка корректности вложенных тегов
+- https://validator.w3.org - Валидатор разметки
 - https://www.w3schools.com/html/default.asp
 - https://semrush.com
 - https://doka.guide/html/ - Дока HTML
